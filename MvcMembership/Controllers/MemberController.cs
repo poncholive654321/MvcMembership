@@ -14,7 +14,7 @@ namespace MvcMembership.Controllers
         public ActionResult Index()
         {
             var x = Services.FtpReaderService.GetInstance().GetFiles(User.Identity.Name);
-            //x que tipo de objeto es?
+            //x que tipo de objeto es????
             return View();
         }
 
